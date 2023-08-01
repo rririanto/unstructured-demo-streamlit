@@ -21,7 +21,9 @@ To get started, upload any docs file and it will be show's on the preview. You c
 You can access the app on the Streamlit Cloud community at [https://unstructured-demo.streamlit.app/](https://unstructured-demo.streamlit.app/).
 
 ## Getting Started
-To use the app, you might need unstructured.io API key. Don't have one yet? Create one on [unstructured](https://unstructured.io). Once you have your API key, enter it into the app when prompted. 
+The app does not require any API key to function; extractions will be processed on streamlit cloud serverunless you choose to process them on unstructured.io server. 
+
+However, if you choose to use unstructured.io API, I gave you a temporary key in the app, but it might be limited. Create your own at [unstructured](https://unstructured.io). After obtaining your API key, select unstructured.io API, enter your own API, and upload your file.
 
 ## 
 
