@@ -72,7 +72,7 @@ def main():
     """
     intro()
 
-    if "enable_api" in st.session_state:
+    if "enable_api" in st.session_state and st.session_state.enable_api:
         st.session_state.advance = True
     
     active_online_api = st.checkbox("Use unstructured.io API?", help="Please note: The file will be uploaded and extracted through the unstructured.io server.", key="enable_api")
